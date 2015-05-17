@@ -24,6 +24,6 @@ And add as a reference INGA.Framework.CacheManager on your project
 ```
 ICacheManager cacheManager = INGA.Framework.CacheManager.ProviderFactory.Instance;
 const string cacheKey = "mycacheKey_1";
-var storeResult = manager.Set<Example>(cacheKey, items);
-var retrieveResult = manager.Get<Example>(cacheKey);
+var storeResult = cacheManager.Set<Example>(cacheKey, items);
+var retrieveResult = cacheManager.Get<Example>(cacheKey);
 ```
