@@ -1,0 +1,4 @@
+C:\Users\Cem\Source\Workspaces\Development\INGA-v1.0.0.1-cem.basaranoglu\INGA.Framework.Managers.Common\bin\Debug\INGA.Framework.Managers.Common.dll
+C:\Users\Cem\Source\Workspaces\Development\INGA-v1.0.0.1-cem.basaranoglu\INGA.Framework.Managers.Common\bin\Debug\INGA.Framework.Managers.Common.pdb
+C:\Users\Cem\Source\Workspaces\Development\INGA-v1.0.0.1-cem.basaranoglu\INGA.Framework.Managers.Common\obj\Debug\INGA.Framework.Managers.Common.dll
+C:\Users\Cem\Source\Workspaces\Development\INGA-v1.0.0.1-cem.basaranoglu\INGA.Framework.Managers.Common\obj\Debug\INGA.Framework.Managers.Common.pdb

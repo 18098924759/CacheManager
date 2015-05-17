@@ -1,0 +1,15 @@
+C:\Users\Cem\Source\Workspaces\Development\INGA-v1.0.0.1-cem.basaranoglu\INGA.Framework.CacheProviders.InMemory\bin\Debug\INGA.Framework.CacheProviders.InMemory.dll
+C:\Users\Cem\Source\Workspaces\Development\INGA-v1.0.0.1-cem.basaranoglu\INGA.Framework.CacheProviders.InMemory\bin\Debug\INGA.Framework.CacheProviders.InMemory.pdb
+C:\Users\Cem\Source\Workspaces\Development\INGA-v1.0.0.1-cem.basaranoglu\INGA.Framework.CacheProviders.InMemory\bin\Debug\INGA.Framework.CacheProviders.Common.dll
+C:\Users\Cem\Source\Workspaces\Development\INGA-v1.0.0.1-cem.basaranoglu\INGA.Framework.CacheProviders.InMemory\bin\Debug\INGA.Framework.Helpers.Common.dll
+C:\Users\Cem\Source\Workspaces\Development\INGA-v1.0.0.1-cem.basaranoglu\INGA.Framework.CacheProviders.InMemory\bin\Debug\INGA.Framework.Helpers.Json.dll
+C:\Users\Cem\Source\Workspaces\Development\INGA-v1.0.0.1-cem.basaranoglu\INGA.Framework.CacheProviders.InMemory\bin\Debug\INGA.Framework.Managers.Common.dll
+C:\Users\Cem\Source\Workspaces\Development\INGA-v1.0.0.1-cem.basaranoglu\INGA.Framework.CacheProviders.InMemory\bin\Debug\ServiceStack.Text.dll
+C:\Users\Cem\Source\Workspaces\Development\INGA-v1.0.0.1-cem.basaranoglu\INGA.Framework.CacheProviders.InMemory\bin\Debug\INGA.Framework.CacheProviders.Common.pdb
+C:\Users\Cem\Source\Workspaces\Development\INGA-v1.0.0.1-cem.basaranoglu\INGA.Framework.CacheProviders.InMemory\bin\Debug\INGA.Framework.Helpers.Common.pdb
+C:\Users\Cem\Source\Workspaces\Development\INGA-v1.0.0.1-cem.basaranoglu\INGA.Framework.CacheProviders.InMemory\bin\Debug\INGA.Framework.Helpers.Json.pdb
+C:\Users\Cem\Source\Workspaces\Development\INGA-v1.0.0.1-cem.basaranoglu\INGA.Framework.CacheProviders.InMemory\bin\Debug\INGA.Framework.Managers.Common.pdb
+C:\Users\Cem\Source\Workspaces\Development\INGA-v1.0.0.1-cem.basaranoglu\INGA.Framework.CacheProviders.InMemory\bin\Debug\ServiceStack.Text.xml
+C:\Users\Cem\Source\Workspaces\Development\INGA-v1.0.0.1-cem.basaranoglu\INGA.Framework.CacheProviders.InMemory\obj\Debug\INGA.Framework.CacheProviders.InMemory.csprojResolveAssemblyReference.cache
+C:\Users\Cem\Source\Workspaces\Development\INGA-v1.0.0.1-cem.basaranoglu\INGA.Framework.CacheProviders.InMemory\obj\Debug\INGA.Framework.CacheProviders.InMemory.dll
+C:\Users\Cem\Source\Workspaces\Development\INGA-v1.0.0.1-cem.basaranoglu\INGA.Framework.CacheProviders.InMemory\obj\Debug\INGA.Framework.CacheProviders.InMemory.pdb

@@ -1,0 +1,16 @@
+C:\Users\Cem\Source\Workspaces\Development\INGA-v1.0.0.1-cem.basaranoglu\INGA.Framework.CacheProviders.Redis\bin\Debug\INGA.Framework.CacheProviders.Redis.dll
+C:\Users\Cem\Source\Workspaces\Development\INGA-v1.0.0.1-cem.basaranoglu\INGA.Framework.CacheProviders.Redis\bin\Debug\INGA.Framework.CacheProviders.Redis.pdb
+C:\Users\Cem\Source\Workspaces\Development\INGA-v1.0.0.1-cem.basaranoglu\INGA.Framework.CacheProviders.Redis\bin\Debug\INGA.Framework.CacheProviders.Common.dll
+C:\Users\Cem\Source\Workspaces\Development\INGA-v1.0.0.1-cem.basaranoglu\INGA.Framework.CacheProviders.Redis\bin\Debug\INGA.Framework.Managers.Common.dll
+C:\Users\Cem\Source\Workspaces\Development\INGA-v1.0.0.1-cem.basaranoglu\INGA.Framework.CacheProviders.Redis\bin\Debug\ServiceStack.Common.dll
+C:\Users\Cem\Source\Workspaces\Development\INGA-v1.0.0.1-cem.basaranoglu\INGA.Framework.CacheProviders.Redis\bin\Debug\ServiceStack.Interfaces.dll
+C:\Users\Cem\Source\Workspaces\Development\INGA-v1.0.0.1-cem.basaranoglu\INGA.Framework.CacheProviders.Redis\bin\Debug\ServiceStack.Redis.dll
+C:\Users\Cem\Source\Workspaces\Development\INGA-v1.0.0.1-cem.basaranoglu\INGA.Framework.CacheProviders.Redis\bin\Debug\ServiceStack.Text.dll
+C:\Users\Cem\Source\Workspaces\Development\INGA-v1.0.0.1-cem.basaranoglu\INGA.Framework.CacheProviders.Redis\bin\Debug\INGA.Framework.CacheProviders.Common.pdb
+C:\Users\Cem\Source\Workspaces\Development\INGA-v1.0.0.1-cem.basaranoglu\INGA.Framework.CacheProviders.Redis\bin\Debug\INGA.Framework.Managers.Common.pdb
+C:\Users\Cem\Source\Workspaces\Development\INGA-v1.0.0.1-cem.basaranoglu\INGA.Framework.CacheProviders.Redis\bin\Debug\ServiceStack.Common.xml
+C:\Users\Cem\Source\Workspaces\Development\INGA-v1.0.0.1-cem.basaranoglu\INGA.Framework.CacheProviders.Redis\bin\Debug\ServiceStack.Redis.xml
+C:\Users\Cem\Source\Workspaces\Development\INGA-v1.0.0.1-cem.basaranoglu\INGA.Framework.CacheProviders.Redis\bin\Debug\ServiceStack.Text.xml
+C:\Users\Cem\Source\Workspaces\Development\INGA-v1.0.0.1-cem.basaranoglu\INGA.Framework.CacheProviders.Redis\obj\Debug\INGA.Framework.CacheProviders.Redis.csprojResolveAssemblyReference.cache
+C:\Users\Cem\Source\Workspaces\Development\INGA-v1.0.0.1-cem.basaranoglu\INGA.Framework.CacheProviders.Redis\obj\Debug\INGA.Framework.CacheProviders.Redis.dll
+C:\Users\Cem\Source\Workspaces\Development\INGA-v1.0.0.1-cem.basaranoglu\INGA.Framework.CacheProviders.Redis\obj\Debug\INGA.Framework.CacheProviders.Redis.pdb

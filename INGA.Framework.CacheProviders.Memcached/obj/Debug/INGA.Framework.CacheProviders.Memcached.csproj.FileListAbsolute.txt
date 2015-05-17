@@ -1,0 +1,12 @@
+C:\Users\Cem\Source\Workspaces\Development\INGA-v1.0.0.1-cem.basaranoglu\INGA.Framework.CacheProviders.Memcached\bin\Debug\INGA.Framework.CacheProviders.Memcached.dll
+C:\Users\Cem\Source\Workspaces\Development\INGA-v1.0.0.1-cem.basaranoglu\INGA.Framework.CacheProviders.Memcached\bin\Debug\INGA.Framework.CacheProviders.Memcached.pdb
+C:\Users\Cem\Source\Workspaces\Development\INGA-v1.0.0.1-cem.basaranoglu\INGA.Framework.CacheProviders.Memcached\bin\Debug\Enyim.Caching.dll
+C:\Users\Cem\Source\Workspaces\Development\INGA-v1.0.0.1-cem.basaranoglu\INGA.Framework.CacheProviders.Memcached\bin\Debug\INGA.Framework.CacheProviders.Common.dll
+C:\Users\Cem\Source\Workspaces\Development\INGA-v1.0.0.1-cem.basaranoglu\INGA.Framework.CacheProviders.Memcached\bin\Debug\INGA.Framework.Managers.Common.dll
+C:\Users\Cem\Source\Workspaces\Development\INGA-v1.0.0.1-cem.basaranoglu\INGA.Framework.CacheProviders.Memcached\bin\Debug\INGA.Framework.CacheProviders.Common.pdb
+C:\Users\Cem\Source\Workspaces\Development\INGA-v1.0.0.1-cem.basaranoglu\INGA.Framework.CacheProviders.Memcached\bin\Debug\INGA.Framework.Managers.Common.pdb
+C:\Users\Cem\Source\Workspaces\Development\INGA-v1.0.0.1-cem.basaranoglu\INGA.Framework.CacheProviders.Memcached\bin\Debug\Enyim.Caching.pdb
+C:\Users\Cem\Source\Workspaces\Development\INGA-v1.0.0.1-cem.basaranoglu\INGA.Framework.CacheProviders.Memcached\bin\Debug\Enyim.Caching.xml
+C:\Users\Cem\Source\Workspaces\Development\INGA-v1.0.0.1-cem.basaranoglu\INGA.Framework.CacheProviders.Memcached\obj\Debug\INGA.Framework.CacheProviders.Memcached.csprojResolveAssemblyReference.cache
+C:\Users\Cem\Source\Workspaces\Development\INGA-v1.0.0.1-cem.basaranoglu\INGA.Framework.CacheProviders.Memcached\obj\Debug\INGA.Framework.CacheProviders.Memcached.dll
+C:\Users\Cem\Source\Workspaces\Development\INGA-v1.0.0.1-cem.basaranoglu\INGA.Framework.CacheProviders.Memcached\obj\Debug\INGA.Framework.CacheProviders.Memcached.pdb
