@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using INGA.Framework.CacheProviders.Common;
 using INGA.Framework.Managers.Common;
 using ServiceStack.Redis;
@@ -83,6 +84,35 @@ namespace INGA.Framework.CacheProviders.Redis
             }
         }
 
+        public ResultDocument<T> Set<T>(string key, IEnumerable<T> value)
+        {
+            ResultDocument<T> resultDocument = new ResultDocument<T>
+            {
+                OperationType = ResultOperation.Insert,
+                StartTime = DateTime.Now,
+                Type = INGA.Framework.Managers.Common.Type.Cache
+            };
+            _cacheObject.Set(key, value);
+
+            var result = this.Get<T>(key);
+
+            resultDocument.EndDatime = DateTime.Now;
+
+            //if data is retrieved
+            if (result.Status == ResultStatus.Success)
+            {
+                resultDocument.Result = result.Result;
+                resultDocument.Status = ResultStatus.Success;
+                return resultDocument;
+            }
+            else
+            {
+                resultDocument.Result = default(T);
+                resultDocument.Status = ResultStatus.Failed;
+                return resultDocument;
+            }
+        }
+
         public ResultDocument<T> Set<T>(string key, T value, DateTime expireDate)
         {
             ResultDocument<T> resultDocument = new ResultDocument<T>
@@ -113,6 +143,93 @@ namespace INGA.Framework.CacheProviders.Redis
         }
 
         public ResultDocument<T> Set<T>(string key, T value, TimeSpan expireTime)
+        {
+            ResultDocument<T> resultDocument = new ResultDocument<T>
+            {
+                OperationType = ResultOperation.Insert,
+                StartTime = DateTime.Now,
+                Type = INGA.Framework.Managers.Common.Type.Cache
+            };
+            _cacheObject.Set(key, value, expireTime);
+
+            var result = this.Get<T>(key);
+
+            resultDocument.EndDatime = DateTime.Now;
+
+            //if data is retrieved
+            if (result.Status == ResultStatus.Success)
+            {
+                resultDocument.Result = result.Result;
+                resultDocument.Status = ResultStatus.Success;
+                return resultDocument;
+            }
+            else
+            {
+                resultDocument.Result = default(T);
+                resultDocument.Status = ResultStatus.Failed;
+                return resultDocument;
+            }
+        }
+
+        public ResultDocument<T> Set<T>(string key, object value)
+        {
+            ResultDocument<T> resultDocument = new ResultDocument<T>
+            {
+                OperationType = ResultOperation.Insert,
+                StartTime = DateTime.Now,
+                Type = INGA.Framework.Managers.Common.Type.Cache
+            };
+            _cacheObject.Set(key, value);
+
+            var result = this.Get<T>(key);
+
+            resultDocument.EndDatime = DateTime.Now;
+
+            //if data is retrieved
+            if (result.Status == ResultStatus.Success)
+            {
+                resultDocument.Result = result.Result;
+                resultDocument.Status = ResultStatus.Success;
+                return resultDocument;
+            }
+            else
+            {
+                resultDocument.Result = default(T);
+                resultDocument.Status = ResultStatus.Failed;
+                return resultDocument;
+            }
+        }
+
+        public ResultDocument<T> Set<T>(string key, object value, DateTime expireDate)
+        {
+            ResultDocument<T> resultDocument = new ResultDocument<T>
+            {
+                OperationType = ResultOperation.Insert,
+                StartTime = DateTime.Now,
+                Type = INGA.Framework.Managers.Common.Type.Cache
+            };
+            _cacheObject.Set(key, value, expireDate);
+
+            var result = this.Get<T>(key);
+
+            resultDocument.EndDatime = DateTime.Now;
+
+            //if data is retrieved
+            if (result.Status == ResultStatus.Success)
+            {
+                resultDocument.Result = result.Result;
+                resultDocument.Status = ResultStatus.Success;
+                return resultDocument;
+            }
+            else
+            {
+                resultDocument.Result = default(T);
+                resultDocument.Status = ResultStatus.Failed;
+                return resultDocument;
+            }
+        }
+
+        public ResultDocument<T> Set<T>(string key, object value, TimeSpan expireTime)
         {
             ResultDocument<T> resultDocument = new ResultDocument<T>
             {

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Runtime.Caching;
 using INGA.Framework.CacheProviders.Common;
 using INGA.Framework.Managers.Common;
@@ -80,6 +81,8 @@ namespace INGA.Framework.CacheProviders.InMemory
             }
         }
 
+      
+
         public ResultDocument<T> Set<T>(string key, T value, DateTime expireDate)
         {
             ResultDocument<T> resultDocument = new ResultDocument<T>
@@ -117,6 +120,115 @@ namespace INGA.Framework.CacheProviders.InMemory
         }
 
         public ResultDocument<T> Set<T>(string key, T value, TimeSpan expireTime)
+        {
+            ResultDocument<T> resultDocument = new ResultDocument<T>
+            {
+                OperationType = ResultOperation.Insert,
+                StartTime = DateTime.Now,
+                Type = Type.Cache
+            };
+
+            _cacheObject.Set(
+                 new CacheItem(key, value, InMemoryCacheExtensions.CreateKeyWithRegion(key, _properties.RegionName)),
+                 new CacheItemPolicy
+                 {
+                     Priority = _properties.Priority,
+                     SlidingExpiration = expireTime
+                 });
+
+            var result = this.Get<T>(key);
+
+            resultDocument.EndDatime = DateTime.Now;
+
+            //if data is retrieved
+            if (result.Status == ResultStatus.Success)
+            {
+                resultDocument.Result = result.Result;
+                resultDocument.Status = ResultStatus.Success;
+                return resultDocument;
+            }
+            else
+            {
+                resultDocument.Result = default(T);
+                resultDocument.Status = ResultStatus.Failed;
+                return resultDocument;
+            }
+        }
+
+        public ResultDocument<T> Set<T>(string key, object value)
+        {
+            ResultDocument<T> resultDocument = new ResultDocument<T>
+            {
+                OperationType = ResultOperation.Insert,
+                StartTime = DateTime.Now,
+                Type = Type.Cache
+            };
+
+            _cacheObject.Set(
+                new CacheItem(key, value,
+                    InMemoryCacheExtensions.CreateKeyWithRegion(key, _properties.RegionName)),
+                new CacheItemPolicy
+                {
+                    Priority = _properties.Priority,
+                    SlidingExpiration = new DateTime().AddMinutes(_properties.CacheDuration).TimeOfDay
+                });
+
+            var result = this.Get<T>(key);
+
+            resultDocument.EndDatime = DateTime.Now;
+
+            //if data is retrieved
+            if (result.Status == ResultStatus.Success)
+            {
+                resultDocument.Result = result.Result;
+                resultDocument.Status = ResultStatus.Success;
+                return resultDocument;
+            }
+            else
+            {
+                resultDocument.Result = default(T);
+                resultDocument.Status = ResultStatus.Failed;
+                return resultDocument;
+            }
+        }
+
+        public ResultDocument<T> Set<T>(string key, object value, DateTime expireDate)
+        {
+            ResultDocument<T> resultDocument = new ResultDocument<T>
+            {
+                OperationType = ResultOperation.Insert,
+                StartTime = DateTime.Now,
+                Type = Type.Cache
+            };
+
+            _cacheObject.Set(
+                 new CacheItem(key, value, InMemoryCacheExtensions.CreateKeyWithRegion(key, _properties.RegionName)),
+                 new CacheItemPolicy
+                 {
+                     Priority = _properties.Priority,
+                     SlidingExpiration = expireDate.AddMinutes(_properties.CacheDuration).TimeOfDay
+                 });
+
+            var result = this.Get<T>(key);
+
+            resultDocument.EndDatime = DateTime.Now;
+
+            //if data is retrieved
+            if (result.Status == ResultStatus.Success)
+            {
+                resultDocument.Result = result.Result;
+                resultDocument.Status = ResultStatus.Success;
+                return resultDocument;
+            }
+            else
+            {
+                resultDocument.Result = default(T);
+                resultDocument.Status = ResultStatus.Failed;
+                return resultDocument;
+            }
+        }
+
+        public ResultDocument<T> Set<T>(string key, object value, TimeSpan expireTime)
         {
             ResultDocument<T> resultDocument = new ResultDocument<T>
             {
